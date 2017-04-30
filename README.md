@@ -12,8 +12,8 @@ Intagración con visualización de datos a modo de ejemplo. Con charts.js. Panta
 
 Pantalla BBDD guarda fecha actual y hora en PostgreSQL. Podría cambiar de acuerdo a UTC.
 
-Sistema próximamente responsivo.
+Sistema responsivo.
 
-Puede verse en linea acá:
+Puede verse en línea acá:
 
 https://polar-headland-61388.herokuapp.com/principal/index
