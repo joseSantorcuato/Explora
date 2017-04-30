@@ -16,4 +16,4 @@ Sistema responsivo.
 
 Puede verse en línea acá:
 
-https://polar-headland-61388.herokuapp.com/principal/index
+https://arcane-hamlet-54963.herokuapp.com/principal/index
