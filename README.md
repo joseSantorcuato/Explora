@@ -16,4 +16,4 @@ Sistema próximamente responsivo.
 
 Puede verse en linea acá:
 
-https://calm-tundra-95612.herokuapp.com/principal/index
+https://polar-headland-61388.herokuapp.com/principal/index
