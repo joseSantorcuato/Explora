@@ -1,0 +1,2 @@
+class Arduino < ApplicationRecord
+end

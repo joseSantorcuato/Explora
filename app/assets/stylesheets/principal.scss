@@ -1,0 +1,89 @@
+// Place all the styles related to the principal controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+body{
+
+  background-color: #fff;
+}
+
+
+
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+
+  color: white;
+}
+
+a:hover {
+
+    color : black;
+}
+a{
+
+    color : black;
+}
+
+
+.fa{
+
+
+font-size: 48px;
+
+}
+
+
+
+
+#content {
+    width: 100%;
+    background: #eff6f4;
+    transition: background 4s linear;
+    -webkit-transition: background 4s linear;
+    -moz-transition: background 4s linear;
+}
+.navbar-nav {
+  font-family: 'Roboto', sans-serif;
+   width: 100%;
+   text-align: left;
+
+
+ }
+
+ .robo {
+   font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 50px;
+    color:black;
+    text-align: left;
+
+
+  }
+
+  .robolinks {
+    font-family: 'Roboto', sans-serif;
+     width: 100%;
+     font-size: 25px;
+     color:black;
+     text-align: left;
+
+
+   }
+   .robotexto {
+     font-family: 'Roboto', sans-serif;
+      width: 100%;
+      font-size: 18px;
+      color:black;
+      text-align: left;
+
+
+    }

@@ -1,0 +1,105 @@
+<head>
+   <title></title>
+   <%= csrf_meta_tags %>
+   <%= stylesheet_link_tag    'application', media: 'all',
+                                             'data-turbolinks-track': 'reload' %>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+
+ </head>
+
+ <script src ="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js">
+ </script>
+
+ <script>
+ var ctx = document.getElementById("myChart");
+ var myChart = new Chart(ctx, {
+     type: 'bar',
+     data: {
+         labels: ["Latam 1990", "Latam 2016", "OCDE 1990", "OCDE 2016", "Chile 1990", "Chile 2016"],
+         datasets: [{
+             label: '% de votantes',
+             data: [63, 70, 75, 63, 86, 59],
+             backgroundColor: [
+                 'rgba(255, 255, 255, 0.8)',
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(255, 255, 255, 0.8)',
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(255, 255, 255, 0.8)',
+                 'rgba(115, 115, 115, 0.8)'
+             ],
+             borderColor: [
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(115, 115, 115, 0.8)',
+                 'rgba(115, 115, 115, 0.8)'
+             ],
+             borderWidth: 1
+         }]
+     },
+     options: {
+         scales: {
+             yAxes: [{
+                 ticks: {
+                     beginAtZero:true
+                 }
+             }]
+         }
+     }
+ });
+ </script>
+
+  <body>
+
+
+            <div class="container">
+
+              <div class="page-header">
+                <p class="robo">Explora cloud</p>
+                <p><strong>Data, visualización</strong> </p>
+
+          </div>
+
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <ul class="nav navbar-nav">
+            <li ><%= link_to 'Inicio',   'index', class: "robolinks" %></li>
+            <li><%= link_to 'Play',   'play', class: "robolinks" %></li>
+            <li class = "active"><%= link_to 'Data',   'read', class: "robolinks" %></li>
+            <li><%= link_to 'Recording',   'digiread', class: "robolinks" %></li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 "> <canvas id="myChart" class="centrado" width="400px" height="300px"</canvas></div>
+
+
+
+</div>
+
+
+
+        <div class="row">
+          <div class="robotexto col-xs-12 col-sm-12 centradop "><p class="robotexto">Visualización de % participación elecciones período 1990 - 2016.</p><p class="robotexto">Latam, OCDE, Chile.</p></div>
+
+
+
+        </div>
+    </div> <!-- /container -->
+  </div>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+
+  </body>
+
+</html>

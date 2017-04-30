@@ -1,0 +1,85 @@
+<head>
+   <title>Play</title>
+   <%= csrf_meta_tags %>
+   <%= stylesheet_link_tag    'application', media: 'all',
+                                             'data-turbolinks-track': 'reload' %>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+   </head>
+
+
+
+   <!--[if lt IE 9]>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+     </script>
+
+   <![endif]-->
+
+ </head>
+
+  <body>
+
+        <div class="container">
+
+          <div class="page-header">
+            <p class="robo">Explora cloud</p>
+            <p><strong>Play</strong> </p>
+
+      </div>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        </div>
+        <ul class="nav navbar-nav">
+        <li ><%= link_to 'Inicio',   'index', class: "robolinks" %></li>
+        <li class = "active"><%= link_to 'Play',   'play', class: "robolinks" %></li>
+        <li><%= link_to 'Data',   'read', class: "robolinks" %></li>
+        <li><%= link_to 'Recording',   'digiread', class: "robolinks" %></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 centradop "><p class="robotexto">En esta sección recuperamos el último registro ingresado desde Recording.</p><p class="robotexto">Si quieres usar Arduino para visualizar el ingreso a esta sección solo debes subir la Firmata a tu placa Arduino y conectar un led a la salida digital 11.</p></div>
+
+
+
+    </div>
+
+
+    <div class="row">
+      <div class="robotexto col-xs-12 col-sm-12">
+  <strong>Último registro: </strong>
+  <%= @arduino.inspect %>
+  </br>
+  </div>
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+
+  </body>
+
+</html>

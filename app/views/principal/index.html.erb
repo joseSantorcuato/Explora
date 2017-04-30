@@ -1,0 +1,65 @@
+<head>
+   <title>Read</title>
+   <%= csrf_meta_tags %>
+   <%= stylesheet_link_tag    'application', media: 'all',
+                                             'data-turbolinks-track': 'reload' %>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+   <!--[if lt IE 9]>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+     </script>
+   <![endif]-->
+
+ </head>
+
+  <body>
+
+
+
+
+    <div class="container">
+
+      <div class="page-header">
+        <p class="robo">Explora cloud</p>
+        <p><strong>Inicio</strong> </p>
+
+  </div>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+      <ul class="nav navbar-nav">
+      <li class = "active"><%= link_to 'Inicio',   'index', class: "robolinks" %></li>
+      <li><%= link_to 'Play',   'play', class: "robolinks" %></li>
+      <li><%= link_to 'Data',   'read', class: "robolinks" %></li>
+      <li><%= link_to 'Recording',   'digiread', class: "robolinks" %></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+<div class="container">
+        <div class="row">
+          <div class="robotexto col-xs-12 col-sm-12"><p class="robotexto">Proyecto desarrollado con el objetivo de servir de guía para diversos usos del cloud computing, internet de las cosas y visualización de datos. Programado sobre Ruby on Rails. Tiene conexión a base de datos postgreSQL, el diseño responsivo está desarrollado con  Bootstrap, se utiliza Charts.js para visualización de datos.</p>
+            <p>Incluye también conexión a Arduino vía Firmata,solo debes subirla a tu placa Arduino. Firmata resultaba más estable que la gema Arduino. Puedes visitar el proyecto para descargar en <a href="https://github.com/joseSantorcuato" target="_blank"><b>github</b></a>.</p>
+          <p>En el enlace Data puedes estudiar como visualizar datos mediante la librería Charts.js, En grabar se ingresarán datos a la base de datos que podrás revisar en la sección Play.
+          </div>
+
+
+
+
+          </div><!-- /.container-fluid -->
+
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+
+  </body>
+
+</html>
