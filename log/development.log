@@ -22196,3 +22196,152 @@ Processing by PrincipalController#play as HTML
 Completed 200 OK in 168ms (Views: 162.6ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/principal/play" for 127.0.0.1 at 2017-04-30 20:17:30 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PrincipalController#play as HTML
+  [1m[36mArduino Load (0.9ms)[0m  [1m[34mSELECT  "arduinos".* FROM "arduinos" ORDER BY "arduinos"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering principal/play.html.erb within layouts/application
+  Rendered principal/play.html.erb within layouts/application (686.9ms)
+Completed 200 OK in 814ms (Views: 739.6ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/principal/play" for 127.0.0.1 at 2017-04-30 20:17:34 -0300
+Processing by PrincipalController#play as HTML
+  [1m[36mArduino Load (2.1ms)[0m  [1m[34mSELECT  "arduinos".* FROM "arduinos" ORDER BY "arduinos"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering principal/play.html.erb within layouts/application
+  Rendered principal/play.html.erb within layouts/application (146.3ms)
+Completed 200 OK in 206ms (Views: 198.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/principal/index" for 127.0.0.1 at 2017-04-30 20:17:36 -0300
+Processing by PrincipalController#index as HTML
+  Rendering principal/index.html.erb within layouts/application
+  Rendered principal/index.html.erb within layouts/application (134.0ms)
+Completed 200 OK in 176ms (Views: 173.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:17:39 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (138.6ms)
+Completed 200 OK in 182ms (Views: 179.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:17:46 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (129.5ms)
+Completed 200 OK in 177ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/index" for 127.0.0.1 at 2017-04-30 20:20:04 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PrincipalController#index as HTML
+  Rendering principal/index.html.erb within layouts/application
+  Rendered principal/index.html.erb within layouts/application (693.6ms)
+Completed 200 OK in 768ms (Views: 745.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:20:22 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (114.2ms)
+Completed 200 OK in 158ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:22:18 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (119.5ms)
+Completed 200 OK in 162ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:22:21 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (203.1ms)
+Completed 200 OK in 262ms (Views: 260.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:22:28 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (134.2ms)
+Completed 200 OK in 179ms (Views: 177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/index" for 127.0.0.1 at 2017-04-30 20:22:45 -0300
+Processing by PrincipalController#index as HTML
+  Rendering principal/index.html.erb within layouts/application
+  Rendered principal/index.html.erb within layouts/application (124.7ms)
+Completed 200 OK in 170ms (Views: 167.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/play" for 127.0.0.1 at 2017-04-30 20:22:46 -0300
+Processing by PrincipalController#play as HTML
+  [1m[36mArduino Load (1.6ms)[0m  [1m[34mSELECT  "arduinos".* FROM "arduinos" ORDER BY "arduinos"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering principal/play.html.erb within layouts/application
+  Rendered principal/play.html.erb within layouts/application (130.3ms)
+Completed 200 OK in 250ms (Views: 189.8ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:22:48 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (149.0ms)
+Completed 200 OK in 201ms (Views: 199.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:23:01 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (168.9ms)
+Completed 200 OK in 222ms (Views: 218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:23:05 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (122.7ms)
+Completed 200 OK in 165ms (Views: 163.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/read" for 127.0.0.1 at 2017-04-30 20:23:08 -0300
+Processing by PrincipalController#read as HTML
+  Rendering principal/read.html.erb within layouts/application
+  Rendered principal/read.html.erb within layouts/application (153.2ms)
+Completed 200 OK in 203ms (Views: 200.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/play" for 127.0.0.1 at 2017-04-30 20:23:31 -0300
+Processing by PrincipalController#play as HTML
+  [1m[36mArduino Load (1.9ms)[0m  [1m[34mSELECT  "arduinos".* FROM "arduinos" ORDER BY "arduinos"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering principal/play.html.erb within layouts/application
+  Rendered principal/play.html.erb within layouts/application (124.4ms)
+Completed 200 OK in 170ms (Views: 163.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/principal/index" for 127.0.0.1 at 2017-04-30 20:23:33 -0300
+Processing by PrincipalController#index as HTML
+  Rendering principal/index.html.erb within layouts/application
+  Rendered principal/index.html.erb within layouts/application (143.2ms)
+Completed 200 OK in 204ms (Views: 202.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/principal/digiread" for 127.0.0.1 at 2017-04-30 20:23:35 -0300
+Processing by PrincipalController#digiread as HTML
+  [1m[35m (3.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.6ms)[0m  [1m[32mINSERT INTO "arduinos" ("texto", "valor", "fecha", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["texto", "arduino"], ["valor", 255], ["fecha", Sun, 30 Apr 2017], ["created_at", 2017-04-30 23:23:35 UTC], ["updated_at", 2017-04-30 23:23:35 UTC]]
+  [1m[35m (23.8ms)[0m  [1m[35mCOMMIT[0m
+  Rendering principal/digiread.html.erb within layouts/application
+  Rendered principal/digiread.html.erb within layouts/application (158.7ms)
+Completed 200 OK in 259ms (Views: 218.5ms | ActiveRecord: 32.2ms)
+
+
+Started GET "/principal/index" for 127.0.0.1 at 2017-04-30 20:23:39 -0300
+Processing by PrincipalController#index as HTML
+  Rendering principal/index.html.erb within layouts/application
+  Rendered principal/index.html.erb within layouts/application (142.3ms)
+Completed 200 OK in 190ms (Views: 188.2ms | ActiveRecord: 0.0ms)
+
+
